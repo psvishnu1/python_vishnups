@@ -1,5 +1,15 @@
 '''
-An implementation of snake game using Tkinter in Python
+Start from the snake_template.py that was shared with you in week03 and enhance it by adding the following functionalities one by one. 
+Note that the template does not have any bricks or food logic. But you are free to copy any relevant code from your exercises, if needed.
+
+(a) At the start of the game, a single brick should appear at a random location. During the game, if the snake hits this brick, it should die and the game should end.
+
+(b) At the start of the game, 20 bricks should appear at random locations. During the game, if the snake hits any one of these bricks, it should die and the game should end. 
+(If the snake is finding it too hard to move, you can try with a larger board) 
+
+(c) Enhance (b) above to ensure that no two bricks are on the same location. 
+
+(d) Enhance (c) above to ensure additionally that no brick appears on the snake's body when the game starts.
 '''
 
 import tkinter as tk
